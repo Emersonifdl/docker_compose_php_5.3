@@ -15,7 +15,7 @@ Execute o seguinte comando no terminal para construir e rodar o container:
 -------------
 ### Detalhes
 A pasta `html/` é onde você coloca o código php do seu projeto.<br>
-A pasta criada `data/db/mysql` é criada para armazenar o banco de dados.<br>
+A pasta `data/db/mysql` é criada para armazenar o banco de dados.<br>
 
 
 Para acessar o projeto acesse via navegador o endereço: `localhost:80`.<br>
