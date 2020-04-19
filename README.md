@@ -1,16 +1,22 @@
-# docker-lamp
-LAMP Stack (Ubuntu, Apache, MySQL, phpMyAdmin)
+# Docker - LAMP
+<abbr title="Linux, Apache, MySQL, PHP">LAMP</abbr> Stack (Ubuntu, Apache, MySQL, phpMyAdmin)
+**Versões**:
+    **PHP**: 5.3
+    **MySQL**: 5.5
 
-# execultar comando composer para construir o container 
-docker-compose up -d
+-------------
 
-#Criar pasta data/db/mysql para armazena o banco de dados  
+# Instalação
+Execute o seguinte comando no terminal para construir e rodar o container: 
+`$ docker-compose up -d`
+-------------
+# Detalhes
+A pasta html/ é onde você coloca o código php do seu projeto.
+A pasta criada data/db/mysql é criada para armazenar o banco de dados.
 
-#para execultar o host 
-localhost:80 -> php
-localhost:81 -> phpmyadmin
+Para acessar o projeto acesse via navegador o endereço: `localhost:80`
+Para acessar o <abbr title="PHPmyAdmin é uma ferramenta utilizada para administrar seus bancos de dados através de navegadores de forma simples e intuitiva">PHPMyAdmin</abbr> acesse via navegador o endereço: `localhost:81`
 
-
-#senha Mysql 
+Banco de Dados Padrão: mydb
 Usuario: root
 Senha: root
