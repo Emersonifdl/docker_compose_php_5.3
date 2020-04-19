@@ -7,13 +7,13 @@
 
 -------------
 
-# Instalação
+### Instalação
 Execute o seguinte comando no terminal para construir e rodar o container:
 
 `$ docker-compose up -d`
 
 -------------
-# Detalhes
+### Detalhes
 A pasta `html/` é onde você coloca o código php do seu projeto.<br>
 A pasta criada `data/db/mysql` é criada para armazenar o banco de dados.<br>
 
