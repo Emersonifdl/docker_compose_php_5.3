@@ -1,8 +1,9 @@
 # Docker - LAMP :sunglasses:
-<abbr title="Linux, Apache, MySQL, PHP">LAMP</abbr> Stack (Ubuntu, Apache, MySQL, phpMyAdmin)
+<abbr title="Linux, Apache, MySQL, PHP">LAMP</abbr> Stack (Ubuntu, Apache, MySQL, phpMyAdmin)<br>
+<br>
 **Versões**:
-    **PHP**: 5.3
-    **MySQL**: 5.5
+- **PHP**: 5.3<br>
+- **MySQL**: 5.5<br>
 
 -------------
 
